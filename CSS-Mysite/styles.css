@@ -1,0 +1,163 @@
+body {
+  color: #40514E;
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-style: dashed grey;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+h1 {
+  width: 100%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.225rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 1.7rem;
+}
+
+p {
+  line-height: 2rem;
+  font-size: 22px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.contenedor1 {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.nube-arriba {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.nube-debajo {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.imagenperfil {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.imagen-habilidades1 {
+  border-radius: 50%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.imagen-habilidades2 {
+  border-radius: 50%;
+  width: 30%;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 50px auto 0 auto;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 50px auto 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.middle-container {
+  margin: 75px auto;
+}
+
+.biografia {
+  font-size: 21px;
+  width: 30%;
+  margin: auto;
+}
+
+.contactame {
+  margin: 50px auto 50px;
+  auto;
+  line-height: 2.5rem;
+}
+
+.btn {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 9px;
+  border: 2px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 9px 24px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.mensaje {
+  margin: 50px auto;
+}
+
+.pie-pagina {
+  background-color: #66BFBF;
+  padding: 2%;
+}
